@@ -5,13 +5,20 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android">
     <size
-        android:width="200dp"
-        android:height="100dp" />
+        android:width="500dp"
+        android:height="500dp" />
     <solid
         android:color="@color/colorPrimary"
     <corners
         android:radius="10dp" />
     <gradient
         android:startColor="#4627A2"
-        android:endColor="#2285E3"
+        android:centerColor="#5A34AD"
+        android:endColor="#2285E3" />
+
+    <stroke
+        android:color="@color/colorAccent"
+        android:width="5dp"
+        android:dashGap="20dp"
+        android:dashWidth="50dp" />
 </shape>
